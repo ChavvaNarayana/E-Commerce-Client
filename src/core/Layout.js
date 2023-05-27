@@ -9,6 +9,26 @@ const Layout = ({ children, match, history }) => {
           Home
         </Link>
       </li>
+      <li className="nav-item">
+        <Link to="/signin" className="nav-link" style={{ color: "#fff" }}>
+          Signin
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link to="/signup" className="nav-link" style={{ color: "#fff" }}>
+          Signup
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link to="/cart" className="nav-link" style={{ color: "#fff" }}>
+          Cart
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link to="/wishlist" className="nav-link" style={{ color: "#fff" }}>
+          Wishlist
+        </Link>
+      </li>
     </ul>
   );
 
