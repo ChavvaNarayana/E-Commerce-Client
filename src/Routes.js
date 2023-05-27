@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import App from "./App";
-import Signup from "./Auth/Signup";
-import Signin from "./Auth/Signin";
+import Signup from "./auth/Signup";
+import Signin from "./auth/Signin";
 import Cart from "./Pages/Cart"
 import Wishlist from "./Pages/Wishlist"
 const Routes = () => {
