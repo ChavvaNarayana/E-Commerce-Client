@@ -5,6 +5,8 @@ import Signup from "./auth/Signup";
 import Signin from "./auth/Signin";
 import Cart from "./Pages/Cart";
 import Wishlist from "./Pages/Wishlist";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Routes = () => {
   return (
@@ -16,6 +18,7 @@ const Routes = () => {
         <Route path="/cart" exact component={Cart} />
         <Route path="/wishlist" exact component={Wishlist} />
       </Switch>
+      <ToastContainer />
     </BrowserRouter>
   );
 };
